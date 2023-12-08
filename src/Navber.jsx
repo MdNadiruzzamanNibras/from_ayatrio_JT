@@ -6,7 +6,7 @@ import { IoBagOutline } from "react-icons/io5";
 
 const Navber = () => {
     return (
-        <nav className="mt-10 mx-12">
+        <nav className="my-10 mx-12">
             <div className="flex   justify-between  items-center">
                 <div className="w-10 h-6"> <img src={logo} alt="" /></div>
                 <div className="flex items-center"><h1 className="mx-6">000 800 100 9538</h1>
