@@ -4,7 +4,7 @@ import bank from '../images/bank2.png'
 const FirstPage = () => {
     return (
         <div>
-            <div className="flex flex-col min-h-screen">
+            <div >
                 <div className="pt-30 flex-grow">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2">
@@ -109,7 +109,9 @@ const FirstPage = () => {
             </div>
              
             </div></div>
-            
+            <div className="mt-[1100px]  ">
+                <img className="w-[1440px] mx-auto" src={bank} alt="" />
+            </div>
         </div>
     );
 };
